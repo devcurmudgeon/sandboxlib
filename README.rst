@@ -7,7 +7,7 @@ This project is a total work in progress, no documentation yet.
 It is being developed as part of the Baserock_ project.
 
 The goal of this library is to provide the sandboxing functionality that is
-already present in the build tools Morph_ and YBD_. We want this new library
+already present in the build tools Morph_ and ybd_. We want this new library
 to be usable without depending on linux-user-chroot_, so that it can be used
 on Mac OS X, and hopefully other platforms too.
 
@@ -135,7 +135,7 @@ system level.
 If you want to do language-level sandboxing (i.e. run untrusted Python code
 within a larger Python program), there are some ways to do it.
 
-The concensus seems to be that Python language-level sandboxing is pretty much
+The consensus seems to be that Python language-level sandboxing is pretty much
 impossible with the default 'cpython' Python runtime:
 
 - https://mail.python.org/pipermail/python-dev/2013-November/130132.html
@@ -165,16 +165,16 @@ The Morph_ build tool (from Baserock_) is the original source of the
 'sandboxlib' linux_user_chroot backend. Hopefully Morph will adopt the
 'sandboxlib' library in future.
 
-YBD
+ybd
 ~~~
 
-The YBD_ build tool (from Baserock_) `triggered the creation of the
+The ybd_ build tool (from Baserock_) `triggered the creation of the
 'sandboxlib' library <https://github.com/devcurmudgeon/ybd/issues/32>`_.
 
 License
 -------
 
-License is GPLv2 but other licensing can be considered on request
+License is GPLv2 but other licensing can be considered on request.
 
 Most of the copyright is currently Codethink but don't let that put you off.
 There's no intent to keep this as a Codethink-only project, nor will there be
